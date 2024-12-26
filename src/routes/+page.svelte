@@ -4,8 +4,8 @@
 	import Tabs from '$lib/components/section/tabs.svelte';
 </script>
 
-<main class="container mx-auto h-screen">
-	<NavBar />
-	<Tabs />
-</main>
+<NavBar />
+<div class="bg-mainC-50">
+	<main class="container mx-auto h-screen"></main>
+</div>
 <NavFloat />

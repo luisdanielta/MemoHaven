@@ -8,9 +8,7 @@
 	let { src, alt, class: className }: ImageProps = $props();
 </script>
 
-<div
-	class={`group relative ${className} overflow-hidden shadow-xl transition-shadow duration-300 ease-in-out hover:cursor-pointer hover:shadow-2xl`}
->
+<div class={`group relative ${className} overflow-hidden`}>
 	<img
 		{src}
 		{alt}

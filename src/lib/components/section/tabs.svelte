@@ -3,5 +3,5 @@
 </script>
 
 <Layout>
-	<div class="bg-mainC-100">test</div>
+	<div class="bg-mainC-100"></div>
 </Layout>
