@@ -7,4 +7,4 @@
 	let { color, children, className }: InBox = $props();
 </script>
 
-<span class={`${className} ${color}`}>{@render children()}</span>
+<span class={`cursor-pointer ${className} ${color}`}>{@render children()}</span>
