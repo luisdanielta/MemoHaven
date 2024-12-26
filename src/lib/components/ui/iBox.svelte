@@ -1,5 +1,10 @@
 <script lang="ts">
-	let { color, children }: { color: string; children?: any } = $props();
+	interface InBox {
+		color?: string;
+		children?: any;
+		className?: string;
+	}
+	let { color, children, className }: InBox = $props();
 </script>
 
-<span class={`${color}`}>{@render children()}</span>
+<span class={`${className} ${color}`}>{@render children()}</span>
