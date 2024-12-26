@@ -10,7 +10,7 @@
 	<div
 		class="fixed bottom-0 mb-4 flex items-center justify-center rounded-full bg-mainC-500 shadow-lg"
 	>
-		<div class="mx-6 my-2 flex items-center gap-2">
+		<div class="mx-6 my-2 flex items-center">
 			<IBox
 				className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
 				color="text-gray-50"
