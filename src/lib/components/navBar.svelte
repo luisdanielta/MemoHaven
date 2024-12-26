@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ISettings from '$lib/icons/iSettings.svelte';
+	import Notifications from './section/notifications.svelte';
 	import IBox from './ui/iBox.svelte';
 	import Layout from './ui/layout.svelte';
 	import User from './ui/user.svelte';
@@ -15,6 +16,9 @@
 			>
 				<ISettings />
 			</IBox>
+		</Layout>
+		<Layout>
+			<Notifications />
 		</Layout>
 	</div>
 </nav>
