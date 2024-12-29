@@ -3,11 +3,7 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		interface Locals {
-			pb: PocketBase;
-			user: Admin | Record | null;
-			security: Security;
-		}
+		// interface Locals {}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
