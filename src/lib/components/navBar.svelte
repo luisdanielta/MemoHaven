@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ISettings from '$lib/icons/iSettings.svelte';
-	import Notifications from './section/notifications.svelte';
+	import Notifications from './screens/notifications.svelte';
 	import IBox from './ui/iBox.svelte';
 	import Layout from './ui/layout.svelte';
 	import User from './ui/user.svelte';
@@ -8,7 +8,7 @@
 
 <nav class="fixed left-0 top-0 w-full bg-gray-50 shadow-sm">
 	<div class="container mx-auto">
-		<Layout row className="items-center justify-between">
+		<Layout row className="items-center justify-between m-4">
 			<User />
 			<IBox
 				className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
@@ -17,7 +17,7 @@
 				<ISettings />
 			</IBox>
 		</Layout>
-		<Layout>
+		<Layout className="m-4">
 			<Notifications />
 		</Layout>
 	</div>
