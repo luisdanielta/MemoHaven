@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Button from '$lib/components/ui/button.svelte';
 	import Layout from '$lib/components/ui/layout.svelte';
-	
 </script>
 
 <Layout className="justify-center h-screen items-center">
