@@ -1,4 +1,5 @@
 <script lang="ts">
+	import IAlert from '$lib/icons/iAlert.svelte';
 	import ISettings from '$lib/icons/iSettings.svelte';
 	import Notifications from './screens/notifications.svelte';
 	import IBox from './ui/iBox.svelte';
@@ -10,15 +11,20 @@
 	<div class="container mx-auto">
 		<Layout row className="items-center justify-between m-4">
 			<User />
-			<IBox
-				className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
-				color="text-mainC-500 hover:text-gray-50"
-			>
-				<ISettings />
-			</IBox>
-		</Layout>
-		<Layout className="m-4">
-			<Notifications />
+			<div class="flex gap-2">
+				<IBox
+					className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
+					color="text-mainC-500 hover:text-gray-50"
+				>
+					<IAlert />
+				</IBox>
+				<IBox
+					className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
+					color="text-mainC-500 hover:text-gray-50"
+				>
+					<ISettings />
+				</IBox>
+			</div>
 		</Layout>
 	</div>
 </nav>
