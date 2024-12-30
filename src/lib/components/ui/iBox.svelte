@@ -3,8 +3,9 @@
 		color?: string;
 		children?: any;
 		className?: string;
+		onclick?: any;
 	}
-	let { color, children, className }: InBox = $props();
+	let { color, children, className, onclick }: InBox = $props();
 </script>
 
-<span class={`cursor-pointer ${className} ${color}`}>{@render children()}</span>
+<button class={`cursor-pointer ${className} ${color}`} {onclick}>{@render children()}</button>

@@ -1,10 +1,7 @@
-<script>
-	import NavBar from '$lib/components/navBar.svelte';
-	import NavFloat from '$lib/components/navFloat.svelte';
+<script lang="ts">
+	import Layout from '$lib/components/ui/layout.svelte';
 </script>
 
-<NavBar />
-<div class="bg-mainC-50">
-	<main class="container mx-auto h-screen"></main>
-</div>
-<NavFloat />
+<Layout className="m-4">
+	<h1>main app</h1>
+</Layout>

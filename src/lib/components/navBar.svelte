@@ -7,7 +7,8 @@
 	import User from './ui/user.svelte';
 </script>
 
-<nav class="fixed left-0 top-0 w-full bg-gray-50 shadow-sm">
+<!--fixed left-0 top-0-->
+<nav class="w-full bg-gray-50 shadow-sm">
 	<div class="container mx-auto">
 		<Layout row className="items-center justify-between m-4">
 			<User />

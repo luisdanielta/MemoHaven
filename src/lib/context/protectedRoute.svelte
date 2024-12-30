@@ -3,6 +3,6 @@
 	let { children } = $props();
 </script>
 
-{#if isAuthenticated()}
+{#if !isAuthenticated()}
 	{@render children()}
 {/if}
