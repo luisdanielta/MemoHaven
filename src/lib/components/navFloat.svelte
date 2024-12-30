@@ -4,6 +4,7 @@
 	import IEdit from '$lib/icons/iEdit.svelte';
 	import ISearch from '$lib/icons/iSearch.svelte';
 	import IBox from './ui/iBox.svelte';
+	import { goto } from '$app/navigation';
 </script>
 
 <div class="relative flex w-full justify-center">
@@ -20,6 +21,9 @@
 			<IBox
 				className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
 				color="text-gray-50"
+				onclick={() => {
+					goto('/');
+				}}
 			>
 				<IBoard />
 			</IBox>
@@ -33,6 +37,9 @@
 			<IBox
 				className="rounded-xl transition-colors duration-300 ease-in-out hover:bg-mainC-400 p-2"
 				color="text-gray-50"
+				onclick={() => {
+					goto('/new');
+				}}
 			>
 				<IEdit />
 			</IBox>

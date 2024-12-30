@@ -1,4 +1,4 @@
 import type { PbT } from '.';
-import type { ITag } from '../entities/tag';
+import type { ITag } from '../../../domain/entities/tag';
 
 export interface PbTag extends ITag, PbT {}
