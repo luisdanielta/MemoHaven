@@ -12,7 +12,7 @@
 </script>
 
 <button
-	class={`${className} rounded-xl bg-mainC-500 px-6 py-2 text-gray-50 shadow-md hover:bg-mainC-400 hover:shadow-lg`}
+	class={`${className} rounded-2xl bg-mainC-500 px-6 py-2 text-gray-50 shadow-md hover:bg-mainC-400 hover:shadow-lg`}
 	{onclick}
 	>{text}
 </button>

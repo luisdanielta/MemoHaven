@@ -4,8 +4,12 @@
 	import IEdit from '$lib/icons/iEdit.svelte';
 </script>
 
-<Layout className="m-4">
-	<form class="flex rounded-2xl bg-gray-50 px-4 py-6 shadow md:w-1/2">
+<Layout className="flex gap-2">
+	<h1>new template</h1>
+</Layout>
+
+<!--
+<form class="flex rounded-2xl bg-gray-50 px-4 py-6 shadow md:w-1/2">
 		<label class="flex gap-2 font-medium text-gray-500">
 			<input
 				type="text"
@@ -20,4 +24,4 @@
 			</IBox>
 		</label>
 	</form>
-</Layout>
+-->

@@ -9,9 +9,9 @@
 </script>
 
 <ProtectedRoute>
-	<div class="flex h-screen flex-col bg-mainC-50">
+	<div class="flex h-screen flex-col">
 		<NavBar />
-		<main class="scrolling-hidden container mx-auto h-full flex-1 overflow-y-auto">
+		<main class="scrolling-hidden container mx-auto mt-4 h-full flex-1 overflow-y-auto px-4">
 			{@render children()}
 		</main>
 	</div>

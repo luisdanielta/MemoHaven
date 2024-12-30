@@ -8,7 +8,7 @@
 </script>
 
 <!--fixed left-0 top-0-->
-<nav class="w-full bg-gray-50 shadow-sm">
+<nav class="w-full bg-gray-50 shadow">
 	<div class="container mx-auto">
 		<Layout row className="items-center justify-between m-4">
 			<User />
