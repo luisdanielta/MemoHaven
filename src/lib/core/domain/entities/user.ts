@@ -4,5 +4,5 @@ export interface IUser {
 	username: string;
 	email: string;
 	admin: boolean;
-	verified: boolean;
+	verified?: boolean;
 }

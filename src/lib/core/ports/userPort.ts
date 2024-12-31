@@ -12,6 +12,10 @@ export class UserService {
 		return this.userRepository.findById(id);
 	}
 
+	async getUserByUsername(username: string): Promise<IUser | null> {
+		return this.userRepository.findByIUsername(username);
+	}
+
 	async getAllUsers(): Promise<IUser[]> {
 		return this.userRepository.findAll();
 	}
@@ -23,6 +27,4 @@ export class UserService {
 	async deleteUser(id: string): Promise<boolean> {
 		return this.userRepository.delete(id);
 	}
-
-	async signIn() {}
 }
