@@ -11,7 +11,7 @@
 </script>
 
 <Layout className="justify-center h-screen items-center">
-	<form class="items-left flex flex-col gap-4">
+	<form class="items-left flex flex-col gap-4 rounded-2xl p-4 shadow shadow-blue-100">
 		<span
 			><Title text="Welcome!" />
 			<Title text="Please sign in to continue." /></span
