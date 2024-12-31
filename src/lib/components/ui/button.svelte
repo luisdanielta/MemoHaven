@@ -11,8 +11,8 @@
 	let { text, icon, alt, onclick, className, children }: iButton = $props();
 </script>
 
-<button
-	class={`${className} rounded-2xl bg-mainC-500 px-6 py-2 text-gray-50 shadow-md hover:bg-mainC-400 hover:shadow-lg`}
-	{onclick}
-	>{text}
-</button>
+<div
+	class="flex w-min cursor-pointer justify-center rounded-2xl border-2 border-mainC-500 bg-transparent px-2 py-4 text-mainC-500 transition-colors transition-shadow duration-150 ease-out hover:border-mainC-600 hover:bg-mainC-100 hover:text-mainC-600 hover:shadow hover:ease-in"
+>
+	<button class="mx-4 truncate border-none text-lg font-medium">{text}</button>
+</div>
