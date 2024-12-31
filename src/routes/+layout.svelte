@@ -7,6 +7,6 @@
 	<title>MemoHaven</title>
 </svelte:head>
 
-<div class="bg-mainC-50">
+<div class="bg-blue-50">
 	{@render children()}
 </div>

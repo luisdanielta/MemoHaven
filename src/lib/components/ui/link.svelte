@@ -8,4 +8,4 @@
 	let { text }: Ilink = $props();
 </script>
 
-<a href="/" class="flex gap-2 text-mainC-500 hover:text-mainC-600"><ILink />{text}</a>
+<a href="/" class="flex gap-2 text-blue-500 hover:text-blue-600"><ILink />{text}</a>

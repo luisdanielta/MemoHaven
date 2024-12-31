@@ -21,18 +21,10 @@ export default {
 				black: '#000',
 				white: '#fff',
 				gray: colors.gray,
-				mainC: {
-					'50': '#e9f2fb',
-					'100': '#d4e6f7',
-					'200': '#a8ccf0',
-					'300': '#7db3e8',
-					'400': '#5199e1',
-					'500': '#2680d9',
-					'600': '#1e66ae',
-					'700': '#174d82',
-					'800': '#0f3357',
-					'900': '#081a2b'
-				}
+				blue: colors.blue,
+				yellow: colors.yellow,
+				green: colors.green,
+				red: colors.red
 			}
 		}
 	},
