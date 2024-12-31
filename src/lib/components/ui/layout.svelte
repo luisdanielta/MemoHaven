@@ -1,6 +1,6 @@
 <script lang="ts">
 	interface layoutProps {
-		children: any;
+		children?: any;
 		className?: string;
 		row?: boolean;
 	}
