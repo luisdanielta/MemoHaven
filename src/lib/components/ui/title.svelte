@@ -7,4 +7,4 @@
 	let { text, className }: ITitle = $props();
 </script>
 
-<h1 class="text-2xl font-bold text-gray-900">{text}</h1>
+<h1 class="text-2xl font-bold text-mainC-500">{text}</h1>

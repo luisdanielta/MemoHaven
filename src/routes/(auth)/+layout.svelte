@@ -6,4 +6,6 @@
 	<title>Sign</title>
 </svelte:head>
 
-{@render children()}
+<main class="container mx-auto px-4">
+	{@render children()}
+</main>
