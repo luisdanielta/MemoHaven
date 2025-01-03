@@ -4,7 +4,7 @@ import type { PbNote } from './note';
 import type { PbTask } from './task';
 import type { PbTag } from './tag';
 import type { PbTemplate } from './template';
-export type { AuthModel, ClientResponseError } from 'pocketbase';
+export type { ClientResponseError } from 'pocketbase';
 
 export interface TypedPocketBase extends PocketBase {
 	collection(idOrName: 'users'): RecordService<PbUser>;

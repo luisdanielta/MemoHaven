@@ -6,7 +6,7 @@
 	import IBox from './ui/iBox.svelte';
 	import { goto } from '$app/navigation';
 	import Layout from './ui/layout.svelte';
-	import Button from './ui/button.svelte';
+	import Button from './ui/button/btnAlt.svelte';
 	import { NavFloat } from '$lib/context/navFloatContext.svelte';
 	import { NavItems } from '$lib/context/navItemContext.svelte';
 </script>
@@ -16,11 +16,7 @@
 		<Layout
 			row
 			className="fixed bottom-0 mb-4 items-center justify-center rounded-full bg-blue-500 shadow-lg"
-		>
-			{#each NavItems as item}
-				<Button text={item.icon} />
-			{/each}
-		</Layout>
+		></Layout>
 	</nav>
 {/if}
 

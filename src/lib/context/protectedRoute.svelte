@@ -1,9 +1,8 @@
 <script lang="ts">
-	import { authService } from '$lib/core/ports/authPort';
+	import { isAuthenticated } from './pb.svelte';
 
 	let { children } = $props();
 </script>
 
-{#if authService.isAuthenticated()}
-	{@render children()}
-{/if}
+{@render children()}
+{#if isAuthenticated()}{/if}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavFloat from '$lib/components/navFloat.svelte';
+	import NavBar from '$lib/components/navBar.svelte';
 
 	let { children } = $props();
 </script>
@@ -8,8 +8,9 @@
 	<title>Sign</title>
 </svelte:head>
 
-<main class="container mx-auto px-4">
-	{@render children()}
-</main>
-
-<NavFloat />
+<div class="flex h-screen flex-col">
+	<NavBar />
+	<main class="scrolling-hidden container mx-auto mt-4 h-full flex-1 overflow-y-auto px-4">
+		{@render children()}
+	</main>
+</div>
